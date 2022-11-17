@@ -1,0 +1,60 @@
+
+header{
+    height: 100px;
+}
+
+.container__header{
+    max-width: 1200px;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 120px;
+}
+
+
+.menu nav ul{
+    display: flex;
+}
+
+.menu nav ul li {
+    padding: 0 20px;
+}
+
+
+.menu nav ul li a{
+    font-size: 16px;
+    color: #000;
+    transition: opacity 300ms;
+    margin: 5px;
+}
+
+
+.menu nav ul li a:hover{
+    opacity: 0.6;
+}
+
+.buton__header-login{
+    padding: 10px 30px;
+    border: 2px solid #CC6C77;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background, color, 300ms;
+}
+
+
+.buton__header-login:hover{
+    padding: 10px 30px;
+    border: none;
+    background: #CC6C77;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
